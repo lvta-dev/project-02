@@ -436,6 +436,7 @@ a {
 /* ====== REVIEW ======= */
 .review-section {
     background: #2e2100;
+    margin-bottom: 200px;
 }
 .review-section .content {
     display: flex;
@@ -502,4 +503,62 @@ a {
     font-size: 2.6rem;
     line-height: 1.54;
     color: #ffffff;
+}
+
+/* ========= STATS ======== */
+.stats .content {
+    display: flex;
+}
+
+.stats .image-column {
+    display: flex;
+    padding-top: 35px;
+    width: 570px;
+}
+
+.stats .image-column img:last-child {
+    position: relative;
+    top: -34px;
+    left: 30px;
+}
+
+.stats .text-column {
+    padding-top: 48px;
+    margin-left: 160px;
+}
+
+.stats .text-column .title {
+    margin-bottom: 16px;
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.stats .text-column .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.stats .text-column p:first-of-type {
+    margin-bottom: 30px;
+}
+
+.stats .text-column p:last-of-type {
+    margin-bottom: 50px;
+}
+
+.stats .sign-up-btn {
+    display: inline-block;
+    padding: 12px 37px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #fff;
+    background: #ffb900;
+    border-radius: 26px;
 }
