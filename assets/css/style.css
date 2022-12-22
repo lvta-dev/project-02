@@ -299,6 +299,10 @@ a {
 }
 
 /* ========== POPULAR COURSE ====== */
+.popular-course {
+    margin-bottom: 200px;
+}
+
 .popular-course .title {
     margin-bottom: 16px;
     font-family: "Sen";
@@ -427,4 +431,75 @@ a {
 
 .popular-course .card-item .book-btn {
     margin-left: auto;
+}
+
+/* ====== REVIEW ======= */
+.review-section {
+    background: #2e2100;
+}
+.review-section .content {
+    display: flex;
+    padding: 96px 0;
+}
+
+.review-section .avatar-column {
+    width: 34%;
+}
+
+.review-section .avatar-column .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.review-section .avatar-column .name {
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #f7f7f7;
+    margin-bottom: 4px;
+}
+
+.review-section .avatar-column .role {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+    margin-bottom: 12px;
+}
+
+.review-section .dot-container .dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+    margin: 0 2px;
+}
+
+.review-section .dot-container span:first-child {
+    margin-left: 0;
+}
+
+.review-section .dot-container .dot.active {
+    background: #ffb900;
+}
+
+.review-section .text-column img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.review-section .text-column {
+    position: relative;
+    width: 770px;
+    padding: 28px 0 0 30px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
 }
