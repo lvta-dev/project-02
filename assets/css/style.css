@@ -36,7 +36,7 @@ a {
     display: inline-block;
     min-width: 98px;
     padding: 12px 24px;
-    background: var(--primary-color);
+    background: #171100;
     border-radius: 25px;
     font-weight: 600;
     font-size: 1.4rem;
@@ -357,6 +357,7 @@ a {
 
 .popular-course .card-container {
     display: flex;
+    justify-content: space-between;
 }
 
 .popular-course .card-container .card-content {
@@ -431,6 +432,10 @@ a {
 
 .popular-course .card-item .book-btn {
     margin-left: auto;
+}
+
+.popular-course .card-item .book-btn.active {
+    background: #ffb900;
 }
 
 /* ====== REVIEW ======= */
@@ -569,6 +574,9 @@ a {
 }
 
 /* ========== JOIN NOW ===== */
+.join-now {
+    margin-bottom: 200px;
+}
 .join-now .content {
     display: flex;
 }
@@ -604,4 +612,114 @@ a {
 .join-now .img-column {
     flex-grow: 1;
     text-align: right;
+}
+
+/* ======= OUR BLOG =========== */
+.our-blog {
+    background: #fffcf4;
+    padding: 96px 0;
+}
+
+.our-blog .title {
+    margin-bottom: 16px;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #130606;
+}
+
+.our-blog .title-desc {
+    width: 448px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #696262;
+}
+
+.our-blog .blog-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 38px;
+}
+
+.our-blog .blog-group .blog-item {
+    width: 370px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+
+.our-blog .blog-group .blog-item img {
+    border-radius: 16px 16px 0 0;
+}
+
+.our-blog .blog-item .blog-item-body {
+    padding: 20px 20px 27px 20px;
+}
+
+.our-blog .blog-item .date {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.our-blog .blog-item .date::after {
+    position: absolute;
+    content: "";
+    width: 160px;
+    height: 1px;
+    bottom: -12px;
+    left: 0;
+    background: #e2dfda;
+}
+
+.our-blog .blog-item .date .dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 4px;
+    border-radius: 50%;
+    background: #ffb900;
+}
+
+.our-blog .blog-item .blog-title {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #171100;
+}
+
+.our-blog .blog-group .read-more-btn.active {
+    background: #ffb900;
+}
+
+.pagination-dot-container div {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination-dot-container .dot {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 3px;
+    border-radius: 50%;
+    background: #5f5b53;
+}
+
+.pagination-dot-container .dot.active {
+    background: #ffb900;
 }
