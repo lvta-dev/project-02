@@ -506,6 +506,10 @@ a {
 }
 
 /* ========= STATS ======== */
+.stats {
+    margin-bottom: 200px;
+}
+
 .stats .content {
     display: flex;
 }
@@ -552,7 +556,8 @@ a {
     margin-bottom: 50px;
 }
 
-.stats .sign-up-btn {
+.stats .cta-btn,
+.join-now .cta-btn {
     display: inline-block;
     padding: 12px 37px;
     font-weight: 600;
@@ -561,4 +566,42 @@ a {
     color: #fff;
     background: #ffb900;
     border-radius: 26px;
+}
+
+/* ========== JOIN NOW ===== */
+.join-now .content {
+    display: flex;
+}
+
+.join-now .text-column {
+    padding-top: 67px;
+    width: 570px;
+}
+
+.join-now .text-column .title {
+    margin-bottom: 16px;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.join-now .text-column .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+    margin-bottom: 38px;
+}
+
+.join-now .cta-btn {
+    padding: 12px 32px;
+}
+
+.join-now .img-column {
+    flex-grow: 1;
+    text-align: right;
 }
